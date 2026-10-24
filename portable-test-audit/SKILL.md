@@ -1,6 +1,6 @@
 ---
 name: portable-test-audit
-description: Audit and consolidate existing unit and integration tests after TDD. Remove redundant, brittle, and implementation-coupled tests while preserving meaningful behavioral contracts and regression protection. Use for requests to prune, deslop, simplify, deduplicate, or maintain a bloated test suite.
+description: Audit and consolidate existing unit and integration tests after TDD. Remove redundant, brittle, and implementation-coupled tests while preserving meaningful behavioral contracts and regression protection. Use only when the user explicitly requests portable-test-audit by name, such as $portable-test-audit.
 ---
 
 # Portable Test Audit
