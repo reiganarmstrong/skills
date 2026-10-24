@@ -1,9 +1,9 @@
 ---
-name: portable-test-audit
-description: Audit and consolidate existing unit and integration tests after TDD. Remove redundant, brittle, and implementation-coupled tests while preserving meaningful behavioral contracts and regression protection. Use only when the user explicitly requests portable-test-audit by name, such as $portable-test-audit.
+name: unslop-tests
+description: Audit and consolidate existing unit and integration tests after TDD. Remove redundant, brittle, and implementation-coupled tests while preserving meaningful behavioral contracts and regression protection. Use only when the user explicitly requests unslop-tests by name, such as $unslop-tests.
 ---
 
-# Portable Test Audit
+# Unslop Tests
 
 Turn an exploratory or AI-generated test suite into a small, trustworthy **permanent regression suite**. Tests written during TDD may have been valuable while shaping the implementation without all deserving permanent maintenance. The objective is **maximum distinct behavioral protection per unit of complexity**, not the fewest tests or the highest coverage percentage.
 
